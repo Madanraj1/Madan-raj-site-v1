@@ -1,0 +1,274 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: auto
+}
+
+body{
+  background-color: #303952;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.mr-logo{
+  height: 40px;
+}
+
+.navbar{
+  background-color: #303952;
+  
+ 
+}
+.resume{
+  color: #22DA8A;
+}
+
+.social-media-handels {
+  position: fixed;
+  top: 60%;
+  width: auto;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.social {
+  font-size: 25px;
+  color: white;
+}
+
+.social:hover{
+  font-size:27px;
+  color: #08e58a;
+}
+
+.intro-container{
+  margin-top: 10%;
+  color: white;
+}
+
+@media (max-width: 576px){
+  [class*="intro-container"]{
+      margin-top: 20%;
+      margin-left: 13%;
+  }
+}
+
+.text-1{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 150%;
+  color: #08e58a;
+}
+
+@media (max-width: 576px){
+  [class*="text-1"]{
+      font-family: 'Roboto Mono', monospace;
+      font-size: 120%;
+      color: #08e58a;
+  }
+}
+
+.text-2{
+  font-family: 'Cambria Math';
+  font-size: 380%;
+}
+@media (max-width: 576px){
+  [class*="text-2"]{
+      font-family: 'Cambria Math';
+      font-size: 350%;
+      color: #08e58a;
+  }
+}
+
+.text-3{
+  font-family: 'Cambria Math';
+  font-size: 380%;
+  color: #bdc3c7;
+}
+
+@media (max-width: 576px){
+  [class*="text-3"]{
+      font-family: 'Cambria Math';
+      font-size: 280%;
+      color: #bdc3c7;
+  }
+}
+
+.text-4{
+  color: #dfe6e9;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+}
+@media (max-width: 576px){
+  [class*="text-4"]{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 80%;
+      color: #dfe6e9;
+  }
+}
+
+.about-me{
+  margin-top: 15%;
+}
+
+a.photo-link{
+  filter: grayscale(50%);
+}
+
+a.photo-link:hover{
+  filter: grayscale(0%);
+  filter: drop-shadow(7px 7px 10px #08e58a);
+}
+
+
+.technologies_i_work_on{
+  font-size: 80%;
+}
+
+@media (max-width: 576px)and (max-width: 768px){
+  [class*="technologies_i_work_on"]{
+      font-size: 60%;
+      color: #dfe6e9;
+  }
+}
+
+.about-text-1{
+  font-size: 280%;
+  font-family: 'Bowlby One SC';
+  color: #ffffff;
+}
+
+@media (max-width: 576px)and (max-width: 768px){
+  [class*="about-text-1"]{
+      font-size: 100%;
+      font-family: 'Bowlby One SC';
+      color: #ffffff;
+  }
+} 
+
+.about-text-2{
+  font-family: 'Archivo Narrow', sans-serif;
+  color: #dfe4ea;
+}
+@media (max-width: 576px ) and (max-width: 768px){
+  [class*="about-text-2"]{
+      font-size: 100%;
+      font-family: 'Bowlby One SC';
+      color: #ffffff;
+  }
+} 
+
+
+.fas{
+  color: #08e58a;
+}
+
+
+@media (max-width: 576px) and (max-width: 900px){
+  [class*="about-me-second"]{
+     margin-left: 30%;
+  }
+} 
+
+.projects-container{
+  margin-top: 20%;
+}
+
+.projects-text-1{
+  color: white;
+}
+
+.card{
+  border: 0;
+  border-radius: 10%;
+  margin-top: 10%;
+  color: #08e58a;
+ 
+}
+@media (max-width: 576px) and (max-width: 900px){
+  [class*="projects-container"]{
+     margin-left: 10%;
+  }
+} 
+
+
+.card-body{
+  background-color: #130f40;
+  border: 0;
+ 
+}
+
+.far{
+  font-size: 150%;
+}
+
+.btn-cards{
+  background-color: #08e58a;
+  color: white;
+}
+
+.contact-me{
+  margin-top: 20%;
+  color: white;
+}
+
+.get-in{
+  color: #08e58a;
+  margin-left: 20%;
+  font-size: 300%;
+  font-family: 'Bowlby One SC';
+ 
+}
+
+.touch-text{
+  margin-top: 1%;
+  color: #ecf0f1;
+  font-size: 120%;
+  font-family: 'Anton', sans-serif;
+}
+
+@media (max-width: 576px) and (max-width: 900px){
+  [class*="touch-text"]{
+     font-size: 80%;
+  }
+} 
+
+.touch-text1{
+  margin: 0;
+  margin-top: 5%;
+  margin-left: 15%;
+ 
+ }
+ .touch-text2{
+  margin: 0;
+
+ }
+
+ .touch-text3{
+  margin: 0;
+  margin-left: 20%;
+
+ }
+ .mail-me-btn{
+  margin: 0;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.footer{
+  margin-top: 25%;
+  background-color: #130F40;
+}
+
+.footer-text-1{
+  margin: 0;
+  padding-top: 1%;
+  color: #bdc3c7;
+  margin-left:40%;
+  font-family: 'Abel', sans-serif;
+}
+.footer-text-1:hover{
+  cursor: pointer;
+  color: #08e58a;
+}
